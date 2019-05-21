@@ -1,0 +1,6 @@
+Idea:
+Loop the preloader until website is loaded.
+After loading display name as in bon homme and fade away.
+
+refer https://www.linealight.com/en-gb
+and look for intro reference

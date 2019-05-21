@@ -1,0 +1,21 @@
+h2
+{
+    color: white;
+    text-align: center;
+    font-kerning: auto;
+    font-size: 30px;
+    font-size-adjust: auto;
+    justify-content: center;
+    position: relative;
+}
+.form
+{
+    background-color: white;
+    text-align: center;
+    border: 20px;
+    border-radius: 3%;
+    font-size-adjust: auto;
+    padding: 5%;
+    text-rendering: auto;
+    color: black;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<monthly>
+<event>
+<id>2</id>
+<name></name>
+<startdate>2016-09-08</startdate>
+<enddate>2016-09-10</enddate>
+<starttime></starttime>
+<endtime></endtime>
+<color>#9f4b99</color>
+<url></url>
+</event>
+
+<event>
+<id>2</id>
+<name></name>
+<startdate>2016-09-08</startdate>
+<enddate>2016-09-10</enddate>
+<starttime></starttime>
+<endtime></endtime>
+<color>#9f4b99</color>
+<url></url>
+</event>
+
+<event>
+<id>2</id>
+<name>app success</name>
+<startdate>2016-09-08</startdate>
+<enddate>2016-09-10</enddate>
+<starttime></starttime>
+<endtime></endtime>
+<color>#9f4b99</color>
+<url></url>
+</event>
+</monthly>

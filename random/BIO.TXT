@@ -1,0 +1,31 @@
+<html>
+<tittle><hr><center><b>My Bio data</center></hr></tittle>
+<body>
+<ol>
+<li>Name		:	S.Abhisaran
+
+<li>Date of birth	:	2/5/1997
+
+<li>Sex		:	Male
+
+<li>Blood group	:	O+ve
+
+<li>Father’s name	:	M.Selva Moorthy
+
+<li>Mother’s name	:	T.Sumitha
+
+<li>Brother’s name	:	S.Kavin
+ 
+<li>Favorite place 	:	Las Vegas, Los Angels. 
+
+<li>Favorite car	:	Rolls Royce, Ferrari, Audi  
+			Mclaren. 
+
+<li>Favorite bike	:	Yamaha, Bugatti.
+
+<li>Favorite mobile	:	Black Berry, HTC, Sony.
+
+<li>Aim		:	Software Engineer.  
+</ol>
+</body>
+</html>	

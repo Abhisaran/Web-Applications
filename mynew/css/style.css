@@ -1,0 +1,280 @@
+body{
+    background-color: #F1F4F7;
+}
+.m{
+margin-top: 10px;
+    margin-bottom:10px;
+}
+.navbar{
+    height: auto;
+    width: 100%;
+    background-color: #2E9DF2;
+    border-radius: 0px;
+    position: relative;
+    margin: 0px;
+}
+.navbar-logo{
+    float:left;
+    height: 9px;
+    width: 9px;
+ 
+}
+button{
+    background-image: url('img/menu.png');
+}
+.navbar-header{
+    padding: 2px;
+    margin-top: 11px;
+    font-size: 18px;
+    font-size-adjust: auto;
+    color:white;
+    font-feature-settings: normal;
+    font-stretch:ultra-condensed;
+    font-kerning: auto;
+    font-weight: bolder;
+}
+.navbar-left
+{
+    float:left;
+    font-size-adjust: auto;
+    color:white;
+    font-size: 20px;
+    font-feature-settings: normal;
+    font-stretch:condensed;
+    font-kerning: auto;
+    font-weight: bolder;
+}
+.navbar-left:hover{
+    float:left;
+    color:white;
+    background-color: #2eadf2;
+}
+
+.navbar-right
+{
+    float: right;
+    padding:10px;
+}
+.size{
+    font-size:20px;
+}
+@media screen and (max-width:720px){
+    
+.size{
+    font-size:15px;
+}
+}
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+    overflow: hidden;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: absolute; 
+    left: 250px;
+    width: 0;
+    
+    max-height: 300%;
+    height:100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    position: absolute;
+    padding: 15px;
+    width: 100%;  
+    overflow-x: hidden; 
+}
+.xyz{
+    min-width: 360px;
+}
+#wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0px; 
+     margin-left:0 !important;min-height:0 !important;
+    -webkit-transform:translate(0, 0) !important;
+    -ms-transform:translate(0, 0) !important;
+    -o-transform:translate(0, 0) !important;
+    transform:translate(0, 0) !important
+}
+.fixed-brand{
+    width: auto;
+}
+/* Sidebar Styles */
+.sidebar-col{
+    height:150px;
+    padding:20px;
+    color: white;
+    background-color: brown;
+}
+.sidebar-img{
+    float:center;
+    margin-top: 15px;
+    height:90px;
+    width:90px;
+    margin-left:50px;
+    border-radius:90px;
+}
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 2px;
+}
+.sidebar-nav li {
+    text-indent: 15px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    border-left: red 2px solid;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.no-margin{
+    margin:0;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+    .fixed-brand{
+        width: 250px;
+    }
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 250px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper {
+        width: 50px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper:hover {
+        width: 250px;
+    }
+
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+        padding-left: 250px;
+    }
+    #wrapper.toggled-2 #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+        margin-left: -200px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        width: auto;
+
+    }
+}
+table{
+    text-align: center;
+    float:center;
+    table-layout: auto;
+    height:auto;
+    text-rendering: geometricPrecision;
+    box-shadow: 5px;
+    font-size-adjust: auto;
+    font-stretch: extra-expanded;
+    margin-top: 5%;
+    box-sizing: content-box;
+    table-layout: auto;
+    
+}
+@media screen and (max-width:640px){
+table{
+    
+    height:auto;
+    text-rendering: geometricPrecision;
+    box-shadow: 5px;
+    font-size: 14px;
+    padding: 0px;
+    font-size-adjust: 100%;
+    margin-top: 5%;
+    
+}
+}
+@media screen and (max-width:480px){
+table{
+    
+    height:auto;
+    text-rendering: geometricPrecision;
+    box-shadow: 5px;
+    font-size: 10px;
+    padding: 0px;
+    font-size-adjust: 100%;
+    margin-top: 5%;
+    
+}
+    
+@media screen and (max-width:320px){
+table{
+    
+    height:auto;
+    text-rendering: geometricPrecision;
+    box-shadow: 5px;
+    font-size: 6px;
+    padding: 0px;
+    font-size-adjust: 100%;
+    margin-top: 5%;
+    
+}
+}
+    .panel .panel-title .bg-red{
+        height:150px; color:white; background-color:red;
+    }
