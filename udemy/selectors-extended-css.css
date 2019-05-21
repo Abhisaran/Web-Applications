@@ -1,0 +1,37 @@
+/* Element Selector */
+body{
+
+}
+
+/* id Selector */
+# id-name{
+
+}
+
+/* Star Selector */
+*{
+
+}
+
+/* Descendant Selector */
+ul li a{
+  font-size: 30px;
+  color: blue;
+}
+
+/* Adjacent Selector */
+
+h4 + ul {
+  color : red;
+  border: 4px solid red;
+}
+
+/* Attribute Selector */
+a[href="https://www.facebook.com/"]{
+  text-decoration: line-through;
+}
+
+/* n-th Selector */
+li:nth-of-type(3){
+  background: purple;
+}

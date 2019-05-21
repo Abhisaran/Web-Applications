@@ -1,0 +1,49 @@
+h1 {
+  color: #009900;
+  font-size: 20px;
+  background: #220000;
+}
+
+h2 {
+  color: #000099;
+  font-size: 20px;
+  background: #220000;
+}
+
+h3 {
+  color: #000000;
+  font-size: 20px;
+  background: #220000;
+}
+
+h4 {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  background: #220000;
+}
+
+p{
+  color: rgba(255, 0, 0, 0.5);
+  font-size: 20px;
+  background: #220000;
+}
+div{
+  background: grey;
+}
+
+ol{
+  background: green;
+  border: 8px dashed blue;
+}
+li{
+  background: red;
+}
+i{
+  font-size: 60px;
+  background: url(https://www.w3schools.com/w3css/img_lights.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+body{
+  background: pink;
+}

@@ -1,0 +1,28 @@
+body {
+  background: pink;
+  font-size: 30px;
+}
+
+p {
+  color: blue;
+}
+
+ul {
+  color: grey;
+}
+
+li {
+  color: red;
+}
+
+#c {
+  color: black;
+}
+
+#d{
+  color: black;
+}
+
+.even{
+  color: green;
+}
