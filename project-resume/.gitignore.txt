@@ -1,2 +1,4 @@
 /Template/
 /The Final/
+\Template\
+\The Final\
