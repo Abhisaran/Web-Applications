@@ -1,0 +1,101 @@
+body {
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+    background-image: linear-gradient(
+            115deg,
+            rgba(58, 58, 158, 0.8),
+            rgba(136, 136, 206, 0.7)
+    ),
+    url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #f3f3f3;
+}
+
+@media (min-width: 768px) {
+    #form-container {
+        max-width: 720px;
+    }
+}
+
+#container {
+    width: 100%;
+    margin: 3rem auto auto auto;
+}
+
+header {
+    text-align: center;
+    /*margin: 1.5em;*/
+}
+
+#title {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+#description {
+    font-style: italic;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 0;
+}
+
+#form-container {
+    background: rgba(27, 27, 50, 0.8);
+    max-width: 720px;
+    padding: 2.5rem;
+    border-radius: 0.25rem;
+    margin: 2em auto auto auto;
+    line-height: 1.5;
+}
+
+#survey-form {
+    display: block;
+    font-size: 1.25rem;
+}
+
+input[type="text"],[type="email"],[type="number"]{
+    width: 96%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: white;
+}
+
+select {
+    width: 99%;
+    padding: 10px 0 10px 0;
+    color: rgba(0,0,0,0.9);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+textarea{
+    border-color: transparent;
+    border-radius: 5px;
+    width: 99%;
+}
+
+button{
+    width: 100%;
+    padding: 0.75rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #37af65;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+button:hover{
+    color:white;
+    cursor: pointer;
+}
